@@ -110,4 +110,4 @@ export const contactsSlice = createSlice({
   },
 });
 
-export const { add, remove } = contactsSlice.actions;
+const { add, remove } = contactsSlice.actions;
